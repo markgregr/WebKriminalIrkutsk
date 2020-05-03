@@ -1,0 +1,111 @@
+body {
+  background-image: url("./background.jpg");
+  background-size: cover;
+  min-width: 320px;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: #ffffff;
+}
+header .nav-item .nav-link {
+  text-transform: uppercase;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: #000;
+}
+header .nav-item .contact {
+  color: #d6624e;
+}
+header .navbar .img {
+  margin-left: 2em;
+  width: 220px;
+  height: 100px;
+}
+header .glav a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: #d6624e;
+  height: 1px;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+header .drop {
+  margin-left: 7em;
+  font-size: 20px;
+}
+header .drop a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: #d6624e;
+  height: 1px;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+header .glav a:hover::after {
+  transform: scale(1);
+}
+header .drop a:hover::after {
+  transform: scale(1);
+}
+body .container {
+  margin-top: 30px;
+  padding-left: 15px;
+}
+body .row {
+  background-color: #40357c;
+  padding: 2em;
+  border-radius: 2em;
+}
+body .padding {
+  padding-bottom: 2em;
+  padding-top: 2em;
+  padding-right: 5em;
+  padding-left: 5em;
+}
+body .alert {
+  width: 75%;
+  margin: 0 auto;
+}
+body .alert hr {
+  border-top: 2px solid #d6624e;
+  width: 100%;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+}
+body .row .key {
+  background-color: #d6624e;
+  margin-left: 4em;
+  margin-top: 1em;
+  border-radius: 2em;
+}
+body .row .urg {
+  margin-left: 10em;
+  background-color: #d6624e;
+  margin-top: 1em;
+  border-radius: 2em;
+}
+body h1,
+h2,
+h3,
+h5 {
+  font-family: "Raleway", sans-serif;
+  color: #fdeaa8;
+}
+body .row a {
+  font-weight: 600;
+  color: #40357c;
+}
+body .row a:hover {
+  color: #fff;
+}
+
+body b {
+  color: #40357c;
+}
+.navbar .final {
+  margin-left: 9em;
+  color: #000;
+  font-size: 30px;
+}

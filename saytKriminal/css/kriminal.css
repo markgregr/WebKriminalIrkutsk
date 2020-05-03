@@ -1,0 +1,116 @@
+body {
+  background-image: url("./background.jpg");
+  background-size: contain;
+  min-width: 320px;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: #ffffff;
+}
+header .nav-item .nav-link {
+  text-transform: uppercase;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: #000;
+}
+header .krim {
+  color: #d6624e;
+}
+header .navbar .img {
+  margin-left: 2em;
+  width: 220px;
+  height: 100px;
+}
+header .navbar-brand {
+  text-transform: uppercase;
+  margin-left: 40px;
+  font-size: 30px;
+  color: #000;
+}
+header .glav a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: #d6624e;
+  height: 1px;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+header .drop {
+  margin-left: 7em;
+  font-size: 20px;
+}
+header .drop a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: #d6624e;
+  height: 1px;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+header .glav a:hover::after {
+  transform: scale(1);
+}
+header .drop a:hover::after {
+  transform: scale(1);
+}
+body .container {
+  margin-top: 30px;
+  padding-left: 15px;
+}
+body .row {
+  background-color: #40357c;
+  padding: 2em;
+  border-radius: 2em;
+}
+body .padding {
+  padding-bottom: 2em;
+  padding-top: 2em;
+  padding-right: 5em;
+  padding-left: 5em;
+}
+body .alert hr {
+  border-top: 2px solid #d6624e;
+  width: 95%;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+}
+
+body p {
+  text-indent: 20px;
+  text-align: justify;
+}
+body h1,
+h3 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #fdeaa8;
+  align: center;
+}
+body figure {
+  margin-left: 20px;
+  background: #fdeaa8;
+  padding: 10px;
+  display: block;
+  width: 350px;
+  float: right;
+  margin: 0 10px 10px 0;
+}
+body figcaption {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000;
+}
+body b {
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  color: #fdeaa8;
+}
+.navbar .final {
+  margin-left: 9em;
+  color: #000;
+  font-size: 30px;
+}
